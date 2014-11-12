@@ -10,7 +10,7 @@ module Aptible
           page_filter: ->(page) { page != 1 }
         }
         font 'Proxima Nova'
-        number_pages "#{@risk_analysis.organization_name}", options
+        number_pages "#{@document.organization_name}", options
         number_pages 'NIST SP 800-30 Rev 1 Risk Analysis',
                      options.merge(at: [0, -22])
         number_pages 'Prepared with assistance from Aptible',
