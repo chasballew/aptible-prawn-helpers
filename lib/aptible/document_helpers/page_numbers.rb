@@ -20,6 +20,8 @@ module Aptible
         }
         number_pages string, options
 
+        return unless @landscape_pages.any?
+
         # Number landscape pages
         options = {
           at: [bounds.right + 25, -22],
