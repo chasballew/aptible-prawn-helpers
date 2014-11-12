@@ -8,8 +8,8 @@ require 'aptible/document_helpers/version'
 Gem::Specification.new do |spec|
   spec.name          = 'aptible-prawn-helpers'
   spec.version       = Aptible::DocumentHelpers::VERSION
-  spec.authors       = ['Skylar Anderson']
-  spec.email         = ['skylar@aptible.com']
+  spec.authors       = ['Skylar Anderson', 'Chas Ballew']
+  spec.email         = ['skylar@aptible.com', 'chas@aptible.com']
   spec.description   = 'Prawn Document Helpers'
   spec.summary       = 'Prawn Document Helpers'
   spec.homepage      = 'https://github.com/aptible/aptible-prawn-helpers'
