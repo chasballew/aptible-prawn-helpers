@@ -2,7 +2,7 @@ module Aptible
   module DocumentHelpers
     module Watermark
       # rubocop:disable MethodLength
-      def watermarked(stamp_type = 'CONFIDENTIAL', format = :portrait, _block)
+      def watermarked(stamp_type = 'CONFIDENTIAL', format = :portrait, &block)
         # Tying the definition to the current format helps ensure
         # the watermark is created with the right margin boxes
         define_watermarks(format)

@@ -1,6 +1,6 @@
 require 'aptible/document_helpers/change_layout_format'
 require 'aptible/document_helpers/font_loader'
-require 'aptible/document_helpers/footer`'
+require 'aptible/document_helpers/footer'
 require 'aptible/document_helpers/header'
 require 'aptible/document_helpers/page_numbers'
 require 'aptible/document_helpers/pretty_table'
